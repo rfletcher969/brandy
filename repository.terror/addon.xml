@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.terror" name="Terror Repository" version="1.0.0" provider-name="Terror">
+	<extension point="xbmc.addon.repository" name="Terror Repository">
+		<dir>
+			<info compressed="false">http://terrorskins.ca/repository/addons.xml</info>
+			<checksum>http://terrorskins.ca/repository/addons.xml.md5</checksum>
+			<datadir zip="true">http://terrorskins.ca/repository/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+		</dir>
+      	<dir>
+            <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+        </dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.github.com/FireTvGuru/repo/master/addons.xml</info>
+			<checksum>https://raw.github.com/FireTvGuru/repo/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.github.com/FireTvGuru/repo/master/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Terror Repository</summary>
+		<description lang="en">A repository hosting build and skin addons</description>
+	</extension>
+</addon>
